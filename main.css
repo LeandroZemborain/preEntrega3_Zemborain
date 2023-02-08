@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contenedor {
+    display: flex;
+}
+
+p{
+    margin: 0;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 5px;
+    list-style: none;
+    overflow: hidden;
+}
+
+li {
+    justify-content: center;
+    border: 1px solid blue;
+}
+.cont-botones {
+    display: flex;
+    justify-content: space-evenly;
+}
